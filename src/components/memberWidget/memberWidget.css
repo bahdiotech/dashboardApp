@@ -1,0 +1,54 @@
+.memberWidgetContainer{
+    flex: 1 ;
+    padding: 0.625rem;
+    margin-left: 1.25;
+    box-shadow: 4px 7px 50px 0px rgba(0,0,0,0.1);
+}
+.membersWidgetTitle{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.memberWidgetList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.membersWidgetListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.25rem 1.25rem;
+}
+.widgetImg {
+    width: 2.5rem; 
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.memberWidgetUser {
+    display: flex;
+    flex-direction: column;
+}
+.memberWidgetUsername {
+    font-weight: 600;
+}
+
+.memberWidgetUserTitle {
+    font-weight: 300;
+}
+.memberWidgetButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 0.4375rem 0.625rem;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+.memberWidgetIcon {
+    font-size: 1rem;
+    margin-right: 0.3125rem;
+}
+
+

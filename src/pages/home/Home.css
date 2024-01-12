@@ -1,0 +1,12 @@
+.homeContainer {
+    flex: 6;
+
+}
+
+.chartAnalyticWidget {
+    display: flex;
+}
+.orderAndMemberWidget {
+    display: flex;
+    margin: 30px;
+}
