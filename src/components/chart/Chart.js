@@ -1,4 +1,5 @@
 import React from "react";
+
 import'./Chart.css';
 
 import {
@@ -8,7 +9,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
 } from "recharts";
 
 export default function Chart() {
